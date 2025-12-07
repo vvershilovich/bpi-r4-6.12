@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: configure
-      run: ./configure
+      run: ./bpi-r4-openwrt-builder.sh
