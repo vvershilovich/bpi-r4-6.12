@@ -1,0 +1,13 @@
+name: Makefile CI
+
+on:
+  push:
+    tags:
+    - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: configure
+      run: ./configure
